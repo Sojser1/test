@@ -1,16 +1,16 @@
 <template>
     <div class="posts">
-        <v-test v-for="post in posts" :post="post" :key="post"></v-test>
+        <v-article v-for="post in posts" :post="post" :key="post"></v-article>
     </div>
 </template>
 
 <script>
-    import VTest from './components/test'
+    import VArticle from './components/v-article'
 
     export default {
         name: 'App',
         components: {
-            VTest,
+            VArticle,
         },
         data() {
             return {

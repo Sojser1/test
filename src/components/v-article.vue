@@ -10,11 +10,6 @@
 <script>
     export default {
         props: ['post'],
-        data() {
-            return {}
-        },
-        created() {
-        },
         methods: {
             transformString(string, options) {
                 const res = string.split('')
