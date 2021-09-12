@@ -1,10 +1,10 @@
 <template>
- <div class="post">
-  <p>{{getTime}}, {{getDate}} / <b>{{post.authorName}}</b> / {{post.authorUrl}}</p>
-  <p class="article" v-html=transformString(post.content,post.contentPostTones)>
-  </p>
- </div>
- <hr>
+    <div class="post">
+        <p>{{getTime}}, {{getDate}} / <b>{{post.authorName}}</b> / {{post.authorUrl}}</p>
+        <p class="article" v-html=transformString(post.content,post.contentPostTones)>
+        </p>
+    </div>
+    <hr>
 </template>
 
 <script>
